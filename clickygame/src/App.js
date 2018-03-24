@@ -26,14 +26,26 @@ class App extends Component {
       this.setState({ count: this.state.count + 1 });
       this.setState({ commentary: "You guessed correctly!" });
       if (this.state.count >= this.state.topScore) {
-        this.setState({ topScore: this.state.count });
+        this.setState({ topScore: this.state.count + 1});
       }
     }
     else {
       this.setState({ count: 0 });
+      this.setState({ clicked: [] });
       this.setState({ commentary: "You guessed incorrectly!" });
     }
+    this.checkIfFinished();
   }
+
+    checkIfFinished = () => {
+      if (this.state.count === 12) {
+        this.setState({ commentary: "WOW!!! You beat the game!" });
+      }
+      else {
+        const shuffled = players.map((a) => [Math.random(),a]).sort((a,b) => a[0]-b[0]).map((a) => a[1]);
+        this.setState({ players: shuffled });
+      }
+    }
 
   render() {
     return (
@@ -49,6 +61,7 @@ class App extends Component {
             <ClickItem
               id={player.id}
               image={player.image}
+              handleClick={this.handleClick}
             />
           ))}
         </MainContainer>
