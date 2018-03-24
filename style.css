@@ -2,16 +2,30 @@ html {
   font-size: 62.5%;
 }
 
+.jumbotron {
+  text-align: center;
+}
+
 .main-container {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
-  max-width: 80vw;
+  max-width: 70vw;
+  margin: 0 auto;
+  align-content: flex-start;
+  overflow: auto;
+  margin-bottom: 10rem;
 }
 
 .click-item {
   background-image: url('placeholder.png');
   height: 15rem;
   width: 15rem;
-  margin: 5rem;
+  margin: 3rem;
+}
+
+.footer {
+  height: 5rem;
+  border-top: 10rem solid #e0e0e0;
+  background-color: #f9f9f9;
 }
