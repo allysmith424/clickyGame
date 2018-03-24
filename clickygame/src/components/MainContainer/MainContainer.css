@@ -1,0 +1,10 @@
+.main-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  max-width: 70vw;
+  margin: 0 auto;
+  align-content: flex-start;
+  overflow: auto;
+  margin-bottom: 10rem;
+}
