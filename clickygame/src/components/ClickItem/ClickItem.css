@@ -1,6 +1,18 @@
 .click-item {
-  background-image: url('placeholder.png');
   height: 15rem;
   width: 15rem;
   margin: 3rem;
+  position: relative;
+}
+
+.imgNumber {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  z-index: 1;
+}
+
+.playerImage {
+  height: 100%;
+  position: absolute;
 }

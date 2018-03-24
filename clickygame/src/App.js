@@ -1,21 +1,37 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
+import React, { Component } from "react";
 import './App.css';
+import Navbar from "./components/Navbar";
+import Header from "./components/Header";
+import MainContainer from "./components/MainContainer";
+import ClickItem from "./components/ClickItem";
+import Footer from "./components/Footer";
+import players from "./players.json";
+
 
 class App extends Component {
+
+  state = {
+    players
+  };
+
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+      <div>
+        <Navbar />
+        <Header />
+        <MainContainer>
+          {this.state.players.map(player => (
+            <ClickItem
+              id={player.id}
+              image={player.image}
+            />
+          ))}
+        </MainContainer>
+        <Footer />
       </div>
     );
   }
+
 }
 
 export default App;
