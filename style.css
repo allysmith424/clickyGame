@@ -1,0 +1,17 @@
+html {
+  font-size: 62.5%;
+}
+
+.main-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  max-width: 80vw;
+}
+
+.click-item {
+  background-image: url('placeholder.png');
+  height: 15rem;
+  width: 15rem;
+  margin: 5rem;
+}
