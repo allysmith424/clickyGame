@@ -11,13 +11,38 @@ import players from "./players.json";
 class App extends Component {
 
   state = {
-    players
+    players,
+    count: 0,
+    topScore: 0,
+    clicked: [],
+    commentary: "Click an image to begin"
   };
+
+  handleClick = id => {
+    const clicked = this.state.clicked;
+    if (clicked.indexOf(id) === -1) {
+      clicked.push(id);
+      this.setState({ clicked: clicked });
+      this.setState({ count: this.state.count + 1 });
+      this.setState({ commentary: "You guessed correctly!" });
+      if (this.state.count >= this.state.topScore) {
+        this.setState({ topScore: this.state.count });
+      }
+    }
+    else {
+      this.setState({ count: 0 });
+      this.setState({ commentary: "You guessed incorrectly!" });
+    }
+  }
 
   render() {
     return (
       <div>
-        <Navbar />
+        <Navbar
+          count = {this.state.count}
+          topScore = {this.state.topScore}
+          commentary = {this.state.commentary}
+        />
         <Header />
         <MainContainer>
           {this.state.players.map(player => (
