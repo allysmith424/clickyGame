@@ -6,6 +6,11 @@
   z-index: 2;
 }
 
+.navbar p {
+  font-size: 1.5rem;
+  font-family: 'Roboto', sans-serif;
+}
+
 .name {
   position: absolute;
   left: 5%;
@@ -13,10 +18,18 @@
 
 .commentary {
   position: absolute;
-  left: 47%;
+  left: 44%;
+  color: #DC1F29;
+  border-bottom: .2rem solid #DC1F29;
+  height: 3.5rem;
+  top: 1.5rem;
 }
 
 .score {
   position: absolute;
   right: 5%;
+}
+
+.scoreBreak {
+  margin: 0 2rem;
 }

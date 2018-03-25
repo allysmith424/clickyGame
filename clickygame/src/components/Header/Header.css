@@ -1,4 +1,45 @@
 .jumbotron {
   text-align: center;
-  margin-top: 4rem;
+  margin-top: 10rem;
+  background-color: #fff;
+  position: relative;
+  height: 20rem;
+}
+
+.headline__primary {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.2rem;
+  color: #000;
+  position: absolute;
+  left: 25%;
+  display: inline;
+  font-size: 4rem;
+}
+
+.break {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 200;
+  color: #000;
+  font-size: 7rem;
+  position: absolute;
+  left: 25%;
+  top: 40%;
+}
+
+.headline__sub {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 200;
+  color: #000;
+  position: absolute;
+  left: 25%;
+  top: 90%;
+  font-size: 2rem;
+}
+
+.crest {
+  height: 15rem;
+  margin: 2rem;
+  display: inline;
+  position: absolute;
+  left: 5%;
 }
