@@ -15,7 +15,7 @@ class App extends Component {
     count: 0,
     topScore: 0,
     clicked: [],
-    commentary: "Click an image to begin"
+    commentary: "Click a player to begin"
   };
 
   handleClick = id => {

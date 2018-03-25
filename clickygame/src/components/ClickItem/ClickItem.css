@@ -16,6 +16,7 @@
   height: 100%;
   position: absolute;
   transition: all 0.5s;
+  border-bottom: .2rem solid #000;
 }
 
 .playerImage:hover {
