@@ -36,4 +36,6 @@ The size of the players was limited by the functional need to show all of them (
 
 The navbar contains the score so it's best if it's always visible. Fixing it to the top of the viewport achieves this. The changing message in the middle of the navbar is red in order to attract attention to its continuously responding message.
 
-This web app isn't mobile responsive as it's designed to be a desktop game. It would have to be entirely rethought to be possible to achieve a similar result on mobile.
+This web app isn't mobile responsive as it's designed to be a desktop game. It would have to be entirely rethought to be possible to achieve a similar result on mobile.\
+.\
+.
