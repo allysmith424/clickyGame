@@ -1,4 +1,5 @@
 # Manchester United Memory Game
+.\
 .
 ### Idea
 
@@ -9,12 +10,15 @@ A simple memory game. Just remember which players you've clicked and which you h
 
 From home view:\
 .\
+.
 ![alt text](src/images/homeView.png "Initial view")\
 .\
 Scroll down to get all 12 players in view:\
 .\
+.
 ![alt text](src/images/all12View.png "All 12 view")\
 .\
+.
 Then simply click the players you haven't clicked yet. The score is calculated in the top right, with the high score being logged and updated when beaten.\
 .\
 .
