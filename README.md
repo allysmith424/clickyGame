@@ -1,36 +1,36 @@
 # Manchester United Memory Game
 
-\
+
 
 ### Idea
 
 A simple memory game. Just remember which players you've clicked and which you haven't... entertainingly harder than it looks. Infinitely more so if you don't know the players names!
 
-\
+
 
 ### Playing
 
 From home view:
-\
+
 
 ![alt text](src/images/homeView.png "Initial view")
-\
+
 
 Scroll down to get all 12 players in view:
-\
+
 
 ![alt text](src/images/all12View.png "All 12 view")
-\
+
 
 Then simply click the players you haven't clicked yet. The score is calculated in the top right, with the high score being logged and updated when beaten.
 
-\
+
 
 ### Technologies and Code
 
 The game was built in React, using the recommended React generation NPM/Yarn tool create-react-app. As this is a relatively simple web app, no back end technologies are needed - hence its deployment on Github pages.
 
-\
+
 
 ### UI/UX
 
