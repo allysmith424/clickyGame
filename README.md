@@ -8,7 +8,7 @@ A simple memory game. Just remember which players you've clicked and which you h
 
 
 
-### Playing
+### Using the app
 
 From home view:
 
@@ -33,7 +33,7 @@ The game was built in React, using the recommended React generation NPM/Yarn too
 
 
 ### UI/UX
-
+ 
 Black and white are two of the colors of Manchester United, so they made for a good choice for the color scheme. And this simplicity makes the heroes of Man United the focal point in their red.
 
 The size of the players was limited by the functional need to show all of them (plus the navbar) within 100vh. A 3 x 4 grid fit this need well. CSS animations enlarge the players when hovered over.
