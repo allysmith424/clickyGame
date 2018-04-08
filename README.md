@@ -30,11 +30,11 @@ The game was built in React, using the recommended React generation NPM/Yarn too
 .
 ### UI / UX
 
-Black and white are two of the colors of Manchester United, so they made for a good choice for the color scheme. And this simplicity makes the heroes of Man United the focal point in their red.
+Black and white are two of the colors of Manchester United, so they made for a good choice for the color scheme. And this simplicity makes the heroes of Man United (that we all know and love) the focal point in their red.
 
-The size of the players was limited by the functional need to show all of them (plus the navbar) within 100vh. A 3 x 4 grid fit this need well. CSS animations enlarge the players when hovered over.
+The size of the players was limited by the functional need to show all of them (plus the navbar) within 100vh. A 3 x 4 grid fit this need well. CSS animations enlarge the player in focus when hovered over.
 
-The navbar contains the score so it's best if it's always visible. Fixing it to the top of the viewport achieves this. The changing message in the middle of the navbar is red in order to attract attention to its continuously responding message.
+The navbar contains the score so it makes sense for it to always be visible. Fixing it to the top of the viewport achieves this. The message in the middle of the navbar is red in order to attract attention to its continuously changing content.
 
 This web app isn't mobile responsive as it's designed to be a desktop game. It would have to be entirely rethought to be possible to achieve a similar result on mobile.\
 .\
